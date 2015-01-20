@@ -6,9 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
         //16 byte long blocks
-        String plainText = "test text 123\0\0\0";
+        String plainText = "testtext 123\0\0\0";
         String encryptionKey = "0123456789abcdef";
-        String seed = "AAAAAAAAAAAAAAAA";
+        String seed = "KyleTurleyRules!";
         String salt = "ShakaShaka";
 
         try {
